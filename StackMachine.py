@@ -7,16 +7,16 @@ class StackMachine:
         return self.__data.pop()
     def add(self):
         if len(self.__data) > 1:
-            self.__append(self.pop() + self.pop())
+            self.__data.append(self.__data.pop() + self.__data.pop())
     def sub(self):
         if len(self.__data) > 1:
-            self.__append(self.pop() - self.pop())
+            self.__data.append(self.__data.pop() - self.__data.pop())
     def mul(self):
         if len(self.__data) > 1:
-            self.__append(self.pop() * self.pop())
+            self.__data.append(self.__data.pop() * self.__data.pop())
     def div(self):
         if len(self.__data) > 1:
-            self.__append(self.pop() / self.pop())
+            self.__data.append(self.__data.pop() / self.__data.pop())
     def mod(self):
         if len(self.__data) > 1:
-            self.__append(self.pop() % self.pop())
+            self.__data.append(self.__data.pop() % self.__data.pop())
