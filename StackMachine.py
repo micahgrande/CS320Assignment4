@@ -1,9 +1,9 @@
 class StackMachine:
     def __init__(self):
         self.__data = []
-    def Push(self, x):
+    def push(self, x):
         self.__data.append(x)
-    def Pop(self):
+    def pop(self):
         return self.__data.pop()
     def add(self):
         if len(self.__data) > 1:
