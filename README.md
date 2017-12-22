@@ -7,6 +7,6 @@ This file is ran by typing "prog4_2.py textfile.txt"
 This file will tokenize the text file using space as a delimeter. It will then create a simple stack machine object capable of pushing, popping, adding, subtracting, multiplying, dividing and modulo.
 If the text file contains anything other than "push" followed by a value, "pop", "add", "sub" "mul", "div", or "mod" it will be ignored
 
-#StackMachine
+# StackMachine
 This file is the stack machine object used by Prog 4-2
 This file contains 7 functions for pushing, popping, adding, subtracting, multiplying, dividing and modulo. 
