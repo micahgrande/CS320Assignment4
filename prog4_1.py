@@ -1,8 +1,8 @@
 import sys
 
 print("Assignment #4-1, Micah Joseph Grande, micah.grande@gmail.com")
-
-file = open(sys.argv[-1], 'r')
+name = sys.argv[-1]
+file = open(name, 'r')
 line = file.readLines()
 
 for i in line:
